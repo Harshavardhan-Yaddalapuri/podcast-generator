@@ -4,7 +4,7 @@ description: "Generates a feed for a podcast from a YAML file"
 runs:
   using: "docker"
   image: "Dockerfile"
-branding: 
+branding:
   icon: "git-branch"
   color: "red"
 inputs:
@@ -15,4 +15,4 @@ inputs:
   name:
     description: The committer's name
     required: true
-    default: ${{ github.actor }}@localhost
+    default: ${{ github.actor }}
